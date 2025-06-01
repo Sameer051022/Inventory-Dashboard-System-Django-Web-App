@@ -2,7 +2,7 @@
 
 An advanced Inventory Management System built with Django, featuring a user-friendly dashboard to track products, categories, stock levels, transactions, and more. Ideal for small to medium businesses looking to digitize their inventory operations.
 
-🚀 Features
+## 🚀 Features
 
 ✅ Admin dashboard with real-time insights
 
@@ -18,7 +18,7 @@ An advanced Inventory Management System built with Django, featuring a user-frie
 
 ✅ Clean UI for better usability
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Backend: Django (Python)
 
@@ -28,31 +28,30 @@ An advanced Inventory Management System built with Django, featuring a user-frie
 
 - Auth: Django's built-in User Authentication
 
-📦 Installation
+## 📦 Installation
 
-## git clone https://github.com/your-username/django-inventory-system.git
-
+    git clone https://github.com/your-username/django-inventory-system.git
     cd django-inventory-system
-python -m venv env
-source env/bin/activate    # or env\Scripts\activate on Windows
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-🔑 Login
+    python -m venv env
+    source env/bin/activate    # or env\Scripts\activate on Windows
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py runserver
+
+## 🔑 Login
+
 Access: http://localhost:8000/admin/
 
 Use your superuser credentials to access the admin panel and dashboard.
 
-📁 Folder Structure
-php
-Copy
-Edit
-inventory/
-├── inventory_app/     # Core app with models, views, templates
-├── static/            # CSS, JS, Images
-├── templates/         # HTML templates
-├── db.sqlite3         # Default DB (can change)
-├── manage.py
-└── requirements.txt
+# 📁 Folder Structure
+
+    inventory/
+    ├── inventory_app/     # Core app with models, views, templates
+    ├── static/            # CSS, JS, Images
+    ├── templates/         # HTML templates
+    ├── db.sqlite3         # Default DB (can change)
+    ├── manage.py
+    └── requirements.txt
 
